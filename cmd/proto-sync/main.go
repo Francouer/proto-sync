@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/franouer/proto-sync/internal/app"
-	"github.com/franouer/proto-sync/internal/infrastructure"
-	interfaces "github.com/franouer/proto-sync/internal/interface"
+	"github.com/Francouer/proto-sync/internal/app"
+	"github.com/Francouer/proto-sync/internal/infrastructure"
+	interfaces "github.com/Francouer/proto-sync/internal/interface"
 )
 
 func main() {

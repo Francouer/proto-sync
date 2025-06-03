@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/Francouer/proto-sync/internal/domain"
 	"github.com/fatih/color"
-	"github.com/franouer/proto-sync/internal/domain"
 )
 
 type ColorLogger struct {

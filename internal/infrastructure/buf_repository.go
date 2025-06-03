@@ -3,7 +3,7 @@ package infrastructure
 import (
 	"fmt"
 
-	"github.com/franouer/proto-sync/internal/domain"
+	"github.com/Francouer/proto-sync/internal/domain"
 	"gopkg.in/yaml.v3"
 )
 

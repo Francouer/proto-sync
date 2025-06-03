@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/franouer/proto-sync/internal/domain"
+	"github.com/Francouer/proto-sync/internal/domain"
 )
 
 type GoModRepositoryImpl struct {

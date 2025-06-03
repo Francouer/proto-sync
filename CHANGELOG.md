@@ -28,4 +28,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `proto-sync --dry-run` - Preview actions without executing
 - `proto-sync --list-versions` - List available versions
 
-[1.0.0]: https://github.com/franouer/proto-sync/releases/tag/v1.0.0 
+[1.0.0]: https://github.com/Francouer/proto-sync/releases/tag/v1.0.0 

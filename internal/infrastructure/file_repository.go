@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/franouer/proto-sync/internal/domain"
+	"github.com/Francouer/proto-sync/internal/domain"
 )
 
 type FileRepositoryImpl struct {
@@ -26,7 +26,7 @@ func (f *FileRepositoryImpl) ReadFile(path string) ([]byte, error) {
 }
 
 func (f *FileRepositoryImpl) WriteFile(path string, data []byte) error {
-	return os.WriteFile(path, data, 0644)
+	return os.WriteFile(path, data, 0o644)
 }
 
 func (f *FileRepositoryImpl) CopyFile(src, dst string) error {
@@ -59,7 +59,7 @@ func (f *FileRepositoryImpl) CreateDir(path string) error {
 	if path == "" {
 		return nil
 	}
-	return os.MkdirAll(path, 0755)
+	return os.MkdirAll(path, 0o755)
 }
 
 func (f *FileRepositoryImpl) FileExists(path string) bool {
@@ -117,7 +117,7 @@ func (f *FileRepositoryImpl) MakeWritable(path string) error {
 
 	// Add write permission to user
 	mode := info.Mode()
-	mode |= 0200 // Add write permission for owner
+	mode |= 0o200 // Add write permission for owner
 
 	return os.Chmod(path, mode)
 }

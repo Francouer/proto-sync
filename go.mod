@@ -1,4 +1,4 @@
-module github.com/franouer/proto-sync
+module github.com/Francouer/proto-sync
 
 go 1.21
 

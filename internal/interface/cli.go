@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/franouer/proto-sync/internal/domain"
+	"github.com/Francouer/proto-sync/internal/domain"
 	"github.com/spf13/cobra"
 )
 
