@@ -1,0 +1,10 @@
+version: v1
+modules:
+  - path: proto
+    name: buf.build/example/proto
+lint:
+  use:
+    - DEFAULT
+breaking:
+  use:
+    - FILE 
