@@ -15,7 +15,7 @@ A flexible CLI tool to download and update proto files from remote repositories.
 ## Installation
 
 ```bash
-go install github.com/Francouer/proto-sync@latest
+go install github.com/Francouer/proto-sync/cmd/proto-sync@v1.1.0
 ```
 
 ## Usage
